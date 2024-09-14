@@ -7,6 +7,7 @@ This project is a Sudoku Game written in Java. It allows users to:
 - Generate Sudoku Games: Create new solvable Sudoku puzzles of varying difficulties.
 The game features a simple GUI for interaction, along with real-time visual feedback during the solving process.
 
+
 Features
 + Sudoku Board: A 9x9 grid where users can input numbers.
 + Puzzle Submit: Submit your solved grid and check if it is correct or not.
@@ -14,6 +15,7 @@ Features
 + Puzzle Generator: Randomly generates new Sudoku puzzles with unique solutions.
 + Real-time Visualization: While solving, the algorithm visualizes each step, color-coding the numbers for easier understanding (green for correct placements, red for errors).
 + Difficulty Levels: Easy, Medium, and Hard modes for puzzle generation.
+
 
 How to Play
 1. Open the application.
@@ -24,10 +26,12 @@ How to Play
 6. While the algorithm solves, you can press Solve button again to cancel solving algorithm
 Visual feedback will guide you while playing or solving puzzles.
 
+
 How It Works
 - The project uses a backtracking algorithm to solve puzzles.
 - The puzzle generator ensures that generated puzzles have only one solution, maintaining the classic Sudoku rules.
 - Visuals update dynamically to show the solving process in real-time.
+
 
 Installation
 1. Clone the Repository
